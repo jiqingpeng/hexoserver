@@ -37,5 +37,7 @@ tags:
 ### 更改端口  
 在node_model->react-script  -> scripts ->  utils-> start.js中搜索3000修改成自己需要的，我这里修改为8080  
 ### 处理跨域  
-在package.json文件最后加上  "proxy": "http://localhost:8080/"就好了。
+	"proxy":"http://localhost:8080/" //在package.json文件最后加上    
+### react中文官网
+[https://doc.react-china.org/docs/hello-world.html](https://doc.react-china.org/docs/hello-world.html)
 
